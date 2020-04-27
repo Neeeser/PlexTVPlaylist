@@ -30,4 +30,4 @@ while len(Episodes) != 0:
 
 nameofplaylist = input("Type name of playlist:")
 
-plex.createPlaylist("Cartoons", items=PlayList)
+plex.createPlaylist(nameofplaylist, items=PlayList)
